@@ -11,7 +11,7 @@
 <div align="center">
 
 Um aplicativo de timer Pomodoro moderno e elegante, desenvolvido com React, TypeScript e Styled Components. Ideal para aumentar a produtividade usando a técnica Pomodoro de gerenciamento de tempo.
-
+</div>
 ## ✨ Funcionalidades
 
 - ⏱️ **Timer Personalizável**: Configure ciclos de trabalho de 5 a 60 minutos
