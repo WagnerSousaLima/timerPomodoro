@@ -12,6 +12,7 @@
 
 Um aplicativo de timer Pomodoro moderno e elegante, desenvolvido com React, TypeScript e Styled Components. Ideal para aumentar a produtividade usando a técnica Pomodoro de gerenciamento de tempo.
 </div>
+
 ## ✨ Funcionalidades
 
 - ⏱️ **Timer Personalizável**: Configure ciclos de trabalho de 5 a 60 minutos
@@ -21,6 +22,28 @@ Um aplicativo de timer Pomodoro moderno e elegante, desenvolvido com React, Type
 - 💾 **Persistência Local**: Seus dados são salvos automaticamente no navegador
 - 🎨 **Interface Moderna**: Design limpo e responsivo com tema escuro
 - ⌨️ **Validação de Formulários**: Validação robusta com Zod e React Hook Form
+
+## 🎯 Técnica Pomodoro
+
+A Técnica Pomodoro é um método de gerenciamento de tempo que utiliza um cronômetro para dividir o trabalho em intervalos, tradicionalmente de 25 minutos, separados por pequenos intervalos. Este aplicativo permite personalizar esses intervalos conforme sua necessidade (5-60 minutos).
+
+### Como Funciona:
+
+1. ⚡ **Defina uma tarefa** para trabalhar
+2. ⏰ **Configure o tempo** do ciclo (5-60 minutos)
+3. 🎯 **Foque na tarefa** até o timer tocar
+4. ✅ **Marque como concluído** ou interrompa se necessário
+5. 📊 **Acompanhe seu progresso** na página de histórico
+
+### 🌐 Acesso Online
+
+A aplicação está disponível online e pronta para uso:
+
+**🔗 [https://focoflowpomodoro.netlify.app/](https://focoflowpomodoro.netlify.app/)**
+
+- ✅ **Sem instalação** - Use diretamente no navegador
+- ✅ **Sempre atualizado** - Última versão automaticamente
+- ✅ **Multiplataforma** - Funciona em qualquer dispositivo
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -55,27 +78,6 @@ Um aplicativo de timer Pomodoro moderno e elegante, desenvolvido com React, Type
 - **@rocketseat/eslint-config** - Configuração de linting otimizada
 - **TypeScript ESLint** - Regras específicas para TypeScript
 
-## 🎯 Técnica Pomodoro
-
-A Técnica Pomodoro é um método de gerenciamento de tempo que utiliza um cronômetro para dividir o trabalho em intervalos, tradicionalmente de 25 minutos, separados por pequenos intervalos. Este aplicativo permite personalizar esses intervalos conforme sua necessidade (5-60 minutos).
-
-### Como Funciona:
-
-1. ⚡ **Defina uma tarefa** para trabalhar
-2. ⏰ **Configure o tempo** do ciclo (5-60 minutos)
-3. 🎯 **Foque na tarefa** até o timer tocar
-4. ✅ **Marque como concluído** ou interrompa se necessário
-5. 📊 **Acompanhe seu progresso** na página de histórico
-
-### 🌐 Acesso Online
-
-A aplicação está disponível online e pronta para uso:
-
-**🔗 [https://focoflowpomodoro.netlify.app/](https://focoflowpomodoro.netlify.app/)**
-
-- ✅ **Sem instalação** - Use diretamente no navegador
-- ✅ **Sempre atualizado** - Última versão automaticamente
-- ✅ **Multiplataforma** - Funciona em qualquer dispositivo
 
 ## 📁 Estrutura do Projeto
 
