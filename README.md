@@ -8,7 +8,28 @@ _Timer Pomodoro em ação - Gerencie seu tempo com eficiência_
 
 </div>
 
+# 🍅 Timer Pomodoro
+
+<div align="center">
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://app.netlify.com/sites/focoflowpomodoro/deploys)
+[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7.0.4-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+</div>
+
 Um aplicativo de timer Pomodoro moderno e elegante, desenvolvido com React, TypeScript e Styled Components. Ideal para aumentar a produtividade usando a técnica Pomodoro de gerenciamento de tempo.
+
+## 🚀 Acesse a Aplicação
+
+<div align="center">
+
+[![Acessar Aplicação](https://img.shields.io/badge/🔗_Acessar_Online-focoflowpomodoro.netlify.app-00875F?style=for-the-badge&logoColor=white)](https://focoflowpomodoro.netlify.app/)
+
+_✨ Aplicação rodando online - Clique para acessar_
+
+</div>
 
 ## 🎥 Demo
 
@@ -67,14 +88,27 @@ A Técnica Pomodoro é um método de gerenciamento de tempo que utiliza um cron�
 4. ✅ **Marque como concluído** ou interrompa se necessário
 5. 📊 **Acompanhe seu progresso** na página de histórico
 
-## 🛠️ Instalação e Uso
+## 🛠️ Como Usar
 
-### Pré-requisitos
+### 🌐 **Opção 1: Acesso Online (Recomendado)**
+
+A aplicação está disponível online e pronta para uso:
+
+**🔗 [https://focoflowpomodoro.netlify.app/](https://focoflowpomodoro.netlify.app/)**
+
+- ✅ **Sem instalação** - Use diretamente no navegador
+- ✅ **Sempre atualizado** - Última versão automaticamente
+- ✅ **Multiplataforma** - Funciona em qualquer dispositivo
+- ✅ **PWA Ready** - Pode ser instalado como app
+
+### 💻 **Opção 2: Instalação Local**
+
+#### Pré-requisitos
 
 - Node.js 18+
 - npm ou yarn
 
-### Instalação
+#### Instalação
 
 ```bash
 # Clone o repositório
@@ -184,7 +218,20 @@ Contribuições são sempre bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
+## � Deploy
+
+A aplicação está deployada no **Netlify** e disponível em:
+
+**🔗 [https://focoflowpomodoro.netlify.app/](https://focoflowpomodoro.netlify.app/)**
+
+### 📊 Status do Deploy
+
+- ✅ **Build automatizado** via Git
+- ✅ **HTTPS habilitado**
+- ✅ **CDN global** para performance
+- ✅ **Deploy contínuo** a cada push na main
+
+## �📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
