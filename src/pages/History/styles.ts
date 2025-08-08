@@ -99,7 +99,7 @@ interface StatusProps {
 }
 
 export const Status = styled.span.withConfig({
-  shouldForwardProp: (prop) => !["statusColor"].includes(prop),
+  shouldForwardProp: (prop) => prop !== "statusColor",
 })<StatusProps>`
   display: flex;
   align-items: center;

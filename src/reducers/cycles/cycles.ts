@@ -1,4 +1,5 @@
 import { ActionTypes } from "./actions";
+import type { CyclesAction } from "./actions";
 
 export interface Cycle {
   id: string;
@@ -14,7 +15,7 @@ interface CyclesState {
   activeCycleId: string | null;
 }
 
-export function cyclesReducer(state: CyclesState, action: any) {
+export function cyclesReducer(state: CyclesState, action: CyclesAction) {
   switch (action.type) {
     case ActionTypes.ADD_NEW_CYCLE:
       return {
