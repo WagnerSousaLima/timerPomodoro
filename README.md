@@ -1,37 +1,16 @@
-# 🍅## 🎥 Demo
+# 🍅 🎥 Demo
 
 <div align="center">
 
 ![Timer Pomodoro Demo](./src/assets/timerpomodorovideogif.gif)
 
-_Timer Pomodoro em ação - Gerencie seu tempo com eficiência_
-
 </div>
 
-# 🍅 Timer Pomodoro
+# 🍅 Foco Flow Pomodoro
 
 <div align="center">
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-site-id/deploy-status)](https://app.netlify.com/sites/focoflowpomodoro/deploys)
-[![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.0.4-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
-
-</div>
 
 Um aplicativo de timer Pomodoro moderno e elegante, desenvolvido com React, TypeScript e Styled Components. Ideal para aumentar a produtividade usando a técnica Pomodoro de gerenciamento de tempo.
-
-## 🚀 Acesse a Aplicação
-
-<div align="center">
-
-[![Acessar Aplicação](https://img.shields.io/badge/🔗_Acessar_Online-focoflowpomodoro.netlify.app-00875F?style=for-the-badge&logoColor=white)](https://focoflowpomodoro.netlify.app/)
-
-_✨ Aplicação rodando online - Clique para acessar_
-
-</div>
-
-## 🎥 Demo
 
 ## ✨ Funcionalidades
 
@@ -88,9 +67,7 @@ A Técnica Pomodoro é um método de gerenciamento de tempo que utiliza um cron�
 4. ✅ **Marque como concluído** ou interrompa se necessário
 5. 📊 **Acompanhe seu progresso** na página de histórico
 
-## 🛠️ Como Usar
-
-### 🌐 **Opção 1: Acesso Online (Recomendado)**
+### 🌐 Acesso Online
 
 A aplicação está disponível online e pronta para uso:
 
@@ -99,44 +76,6 @@ A aplicação está disponível online e pronta para uso:
 - ✅ **Sem instalação** - Use diretamente no navegador
 - ✅ **Sempre atualizado** - Última versão automaticamente
 - ✅ **Multiplataforma** - Funciona em qualquer dispositivo
-- ✅ **PWA Ready** - Pode ser instalado como app
-
-### 💻 **Opção 2: Instalação Local**
-
-#### Pré-requisitos
-
-- Node.js 18+
-- npm ou yarn
-
-#### Instalação
-
-```bash
-# Clone o repositório
-git clone https://github.com/WagnerSousaLima/timerPomodoro.git
-
-# Entre no diretório
-cd timerPomodoro
-
-# Instale as dependências
-npm install
-
-# Inicie o servidor de desenvolvimento
-npm run dev
-```
-
-### Scripts Disponíveis
-
-```bash
-# Desenvolvimento
-npm run dev          # Inicia o servidor de desenvolvimento
-
-# Produção
-npm run build        # Gera build de produção
-npm run preview      # Visualiza o build de produção
-
-# Qualidade de Código
-npm run lint         # Executa o linter
-```
 
 ## 📁 Estrutura do Projeto
 
@@ -200,14 +139,6 @@ src/
 - Layout compartilhado entre páginas
 - Navegação intuitiva com ícones
 
-## 📱 Responsividade
-
-O aplicativo é totalmente responsivo e funciona perfeitamente em:
-
-- 🖥️ **Desktop** (1024px+)
-- 📱 **Tablet** (768px - 1023px)
-- 📱 **Mobile** (até 767px)
-
 ## 🤝 Contribuindo
 
 Contribuições são sempre bem-vindas! Para contribuir:
@@ -218,28 +149,10 @@ Contribuições são sempre bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## � Deploy
-
-A aplicação está deployada no **Netlify** e disponível em:
-
-**🔗 [https://focoflowpomodoro.netlify.app/](https://focoflowpomodoro.netlify.app/)**
-
-### 📊 Status do Deploy
-
-- ✅ **Build automatizado** via Git
-- ✅ **HTTPS habilitado**
-- ✅ **CDN global** para performance
-- ✅ **Deploy contínuo** a cada push na main
-
-## �📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## 👨‍💻 Autor
 
 **Wagner Sousa Lima**
 
-- GitHub: [@WagnerSousaLima](https://github.com/WagnerSousaLima)
 - LinkedIn: [Wagner Sousa Lima](https://www.linkedin.com/in/wagnersl7)
 
 ---

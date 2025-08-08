@@ -12,6 +12,7 @@ import {
 import { NewCycleForm } from "./components/NewCycleForm";
 import { Countdown } from "./components/Countdown";
 import { CyclesContext } from "../../contexts/CyclesContext";
+import { SEOHead } from "../../components/SEOHead";
 
 const newCycleFormValidationSchema = zod.object({
   task: zod.string().min(1, "Informe a tarefa"),
@@ -46,25 +47,32 @@ export function Home() {
   const isSubmitDisable = !task;
 
   return (
-    <HomeContainer>
-      <form onSubmit={handleSubmit(handleCreateNewCycle)}>
-        <FormProvider {...newCycleForm}>
-          <NewCycleForm />
-        </FormProvider>
-        <Countdown />
+    <>
+      <SEOHead
+        title="Timer Pomodoro - Inicie seu ciclo de produtividade"
+        description="Comece um novo ciclo Pomodoro e aumente sua produtividade. Configure sua tarefa e tempo de foco para gerenciar melhor seu trabalho e estudos."
+        keywords="pomodoro timer, iniciar ciclo, produtividade, foco, concentração, gestão de tempo"
+      />
+      <HomeContainer>
+        <form onSubmit={handleSubmit(handleCreateNewCycle)}>
+          <FormProvider {...newCycleForm}>
+            <NewCycleForm />
+          </FormProvider>
+          <Countdown />
 
-        {activeCycle ? (
-          <StopCountdownButton onClick={interruptCurrentCycle} type="button">
-            <HandPalm size={24} />
-            Interromper
-          </StopCountdownButton>
-        ) : (
-          <StartCountdownButton disabled={isSubmitDisable} type="submit">
-            <Play size={24} />
-            Começar
-          </StartCountdownButton>
-        )}
-      </form>
-    </HomeContainer>
+          {activeCycle ? (
+            <StopCountdownButton onClick={interruptCurrentCycle} type="button">
+              <HandPalm size={24} />
+              Interromper
+            </StopCountdownButton>
+          ) : (
+            <StartCountdownButton disabled={isSubmitDisable} type="submit">
+              <Play size={24} />
+              Começar
+            </StartCountdownButton>
+          )}
+        </form>
+      </HomeContainer>
+    </>
   );
 }

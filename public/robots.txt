@@ -1,0 +1,9 @@
+<!-- robots.txt -->
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://focoflowpomodoro.netlify.app/sitemap.xml
+
+# Performance and SEO friendly
+Crawl-delay: 1

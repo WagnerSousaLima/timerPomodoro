@@ -1,0 +1,28 @@
+{
+  "name": "Timer Pomodoro",
+  "short_name": "Pomodoro",
+  "description": "Aplicativo moderno para gerenciamento de tempo usando a técnica Pomodoro",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#121214",
+  "theme_color": "#00875F",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/src/assets/Logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "lang": "pt-BR",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "/src/assets/timerpomodorovideogif.gif",
+      "sizes": "1200x800",
+      "type": "image/gif"
+    }
+  ]
+}
